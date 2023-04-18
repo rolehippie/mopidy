@@ -14,7 +14,7 @@ mopidy_extra_packages:
   - mopidy-spotify
 
 # @var mopidy_distro:description: Distribution used for repository
-mopidy_distro: "{{ 'bullseye' if ansible_distribution_version is version('18.04', '>') else 'buster' }}"
+mopidy_distro: bullseye
 
 # @var mopidy_keyring:description: Path for the repository keyring
 mopidy_keyring: /usr/share/keyrings/mopidy-archive-keyring.gpg
