@@ -9,7 +9,7 @@
 
 - name: Add apt repository
   apt_repository:
-    repo: "deb [signed-by={{ mopidy_keyring }}] https://apt.mopidy.com/ bullseye main contrib non-free"
+    repo: "deb [signed-by={{ mopidy_keyring }}] https://apt.mopidy.com/ {{ mopidy_distro }} main contrib non-free"
     filename: mopidy
     update_cache: True
     state: present
