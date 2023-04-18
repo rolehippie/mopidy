@@ -1,0 +1,19 @@
+# Standards: 1.2
+---
+# @var mopidy_general_packages:description: List of general packages to install
+mopidy_general_packages:
+  - mopidy
+  - mopidy-local
+  - mopidy-mpd
+  - mopidy-mpris
+
+# @var mopidy_extra_packages:description: List of extra packages to install
+mopidy_extra_packages:
+  - mopidy-podcast
+  - mopidy-somafm
+  - mopidy-spotify
+
+# @var mopidy_keyring:description: Path for the repository keyring
+mopidy_keyring: /usr/share/keyrings/mopidy-archive-keyring.gpg
+
+...

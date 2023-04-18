@@ -1,0 +1,27 @@
+# Standards: 1.2
+---
+- name: Download repo key
+  get_url:
+    url: https://apt.mopidy.com/mopidy.gpg
+    dest: "{{ mopidy_keyring }}"
+  tags:
+    - mopidy
+
+- name: Add apt repository
+  apt_repository:
+    repo: "deb [signed-by={{ mopidy_keyring }}] https://apt.mopidy.com/ bullseye main contrib non-free"
+    filename: mopidy
+    update_cache: True
+    state: present
+  tags:
+    - mopidy
+
+- name: Install required packages
+  loop: "{{ mopidy_general_packages + mopidy_extra_packages }}"
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - mopidy
+
+...
