@@ -17,6 +17,7 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 - [Requirements](#requirements)
 - [Default Variables](#default-variables)
+  - [mopidy_distro](#mopidy_distro)
   - [mopidy_extra_packages](#mopidy_extra_packages)
   - [mopidy_general_packages](#mopidy_general_packages)
   - [mopidy_keyring](#mopidy_keyring)
@@ -33,6 +34,17 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 
 ## Default Variables
+
+### mopidy_distro
+
+Distribution used for repository
+
+#### Default value
+
+```YAML
+mopidy_distro: "{{ 'bullseye' if ansible_distribution_version is version('18.04',\
+  \ '>') else 'buster' }}"
+```
 
 ### mopidy_extra_packages
 
