@@ -42,8 +42,7 @@ Distribution used for repository
 #### Default value
 
 ```YAML
-mopidy_distro: "{{ 'bullseye' if ansible_distribution_version is version('18.04',\
-  \ '>') else 'buster' }}"
+mopidy_distro: bullseye
 ```
 
 ### mopidy_extra_packages
