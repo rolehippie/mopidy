@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/mopidy/compare/v1.0.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([443d191](https://github.com/rolehippie/mopidy/commit/443d191903f937a70169d024ef2fdae999d52c30))
+* used full qualified collection names ([3a41d39](https://github.com/rolehippie/mopidy/commit/3a41d3963ff9d1660c35c89a63174c7d05309127))
+
 ## 1.0.0 (2023-04-18)
 
 
