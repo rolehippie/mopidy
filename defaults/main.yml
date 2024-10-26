@@ -10,7 +10,6 @@ mopidy_general_packages:
 mopidy_extra_packages:
   - mopidy-podcast
   - mopidy-somafm
-  - mopidy-spotify
 
 # @var mopidy_distro:description: Distribution used for repository
 mopidy_distro: bullseye
