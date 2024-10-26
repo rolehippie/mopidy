@@ -54,7 +54,6 @@ List of extra packages to install
 mopidy_extra_packages:
   - mopidy-podcast
   - mopidy-somafm
-  - mopidy-spotify
 ```
 
 ### mopidy_general_packages
