@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/mopidy/compare/v2.0.0...v2.1.0) (2024-11-04)
+
+
+### Features
+
+* drop spotify package because of older compatability ([a766b94](https://github.com/rolehippie/mopidy/commit/a766b94334767947963e29c9b1239ef6a332d6e0))
+
 ## [2.0.0](https://github.com/rolehippie/mopidy/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
