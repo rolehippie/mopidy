@@ -10,7 +10,7 @@
   ansible.builtin.apt_repository:
     repo: "deb [signed-by={{ mopidy_keyring }}] https://apt.mopidy.com/ {{ mopidy_distro }} main contrib non-free"
     filename: mopidy
-    update_cache: True
+    update_cache: true
     state: present
   tags:
     - mopidy
