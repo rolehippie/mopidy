@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/rolehippie/mopidy/compare/v2.1.0...v2.2.0) (2025-11-17)
+
+
+### Features
+
+* apply new repo structure and update linting ([0936560](https://github.com/rolehippie/mopidy/commit/0936560f1e20a91be6b8bc2df0cae17ead52becd))
+
 ## [2.1.0](https://github.com/rolehippie/mopidy/compare/v2.0.0...v2.1.0) (2024-11-04)
 
 
