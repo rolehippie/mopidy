@@ -3,6 +3,8 @@
   ansible.builtin.get_url:
     url: https://apt.mopidy.com/mopidy.gpg
     dest: "{{ mopidy_keyring }}"
+    mode: u=rw,g=r,o=r
+    force: true
   tags:
     - mopidy
 
