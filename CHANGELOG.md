@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/rolehippie/mopidy/compare/v2.2.0...v2.2.1) (2025-12-22)
+
+
+### Bugfixes
+
+* make linter happy and resolve perms for repo key ([9defdf8](https://github.com/rolehippie/mopidy/commit/9defdf8c2048f900abfa2a29c9b6ec1663639df0))
+
 ## [2.2.0](https://github.com/rolehippie/mopidy/compare/v2.1.0...v2.2.0) (2025-11-17)
 
 
