@@ -41,7 +41,7 @@ Distribution used for repository
 #### Default value
 
 ```YAML
-mopidy_distro: bullseye
+mopidy_distro: trixie
 ```
 
 ### mopidy_extra_packages

@@ -12,7 +12,7 @@ mopidy_extra_packages:
   - mopidy-somafm
 
 # @var mopidy_distro:description: Distribution used for repository
-mopidy_distro: bullseye
+mopidy_distro: trixie
 
 # @var mopidy_keyring:description: Path for the repository keyring
 mopidy_keyring: /usr/share/keyrings/mopidy-archive-keyring.gpg
