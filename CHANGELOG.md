@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/mopidy/compare/v2.3.0...v2.4.0) (2026-08-24)
+
+### Features
+
+* update to working repo version ([0ba99d0](https://github.com/rolehippie/mopidy/commit/0ba99d0589c8edb92afb6d791a4e693e38d3fd72))
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#38](https://github.com/rolehippie/mopidy/issues/38)) ([97a2df8](https://github.com/rolehippie/mopidy/commit/97a2df8df98f734a31c96d5e2f18194f9fdd9991))
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([f0f3e29](https://github.com/rolehippie/mopidy/commit/f0f3e29c6e8983a55b56541e66f3e88ec63d117e))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#42](https://github.com/rolehippie/mopidy/issues/42)) ([dffd06f](https://github.com/rolehippie/mopidy/commit/dffd06fece8c9861963f735119323079177aee59))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#39](https://github.com/rolehippie/mopidy/issues/39)) ([5f27b22](https://github.com/rolehippie/mopidy/commit/5f27b22d7e98dc54b555bcfe3d1ae9ac14768f5d))
+* **patch:** update dependency pre-commit to v4.6.2 ([#40](https://github.com/rolehippie/mopidy/issues/40)) ([d9ca2da](https://github.com/rolehippie/mopidy/commit/d9ca2dad266ab50d3c324a1dcc313225206e912a))
+* **patch:** update dependency python to v3.14.7 ([#36](https://github.com/rolehippie/mopidy/issues/36)) ([5e12902](https://github.com/rolehippie/mopidy/commit/5e12902e01622da648186c31b37f96aa17a5f7e6))
+
 ## [2.3.0](https://github.com/rolehippie/mopidy/compare/v2.2.1...v2.3.0) (2026-07-27)
 
 ## [2.2.1](https://github.com/rolehippie/mopidy/compare/v2.2.0...v2.2.1) (2025-12-22)
