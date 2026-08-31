@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.1](https://github.com/rolehippie/mopidy/compare/v2.4.0...v2.4.1) (2026-08-31)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#43](https://github.com/rolehippie/mopidy/issues/43)) ([d14c721](https://github.com/rolehippie/mopidy/commit/d14c7211b095166acd2cd38b6ff79167989b9129))
+
 ## [2.4.0](https://github.com/rolehippie/mopidy/compare/v2.3.0...v2.4.0) (2026-08-24)
 
 ### Features
