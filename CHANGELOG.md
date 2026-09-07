@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/mopidy/compare/v2.4.1...v2.5.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([6ad0f5d](https://github.com/rolehippie/mopidy/commit/6ad0f5d50d808d7270f71bdeb3b3832105cd7168))
+
 ## [2.4.1](https://github.com/rolehippie/mopidy/compare/v2.4.0...v2.4.1) (2026-08-31)
 
 ### Dependencies
